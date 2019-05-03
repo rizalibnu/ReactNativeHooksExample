@@ -100,7 +100,7 @@ const withHeroData = Comp => {
 };
 
 const withScreenWidth = Comp => {
-  return class WindowWidth extends React.Component {
+  return class ScreenWidth extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
